@@ -3,11 +3,108 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     list-style: none;
+    background-attachment: fixed;
 }
 
 header {
     background-color: white;
 }
+
+.photo-img {
+    margin-left: 800px; 
+    margin-top: -100px; 
+}
+
+.button_click{
+    text-decoration: none;
+}
+.cssbuttons-io-button {
+    background: #05062d;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #05062d;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #05062d;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #0f0124;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+
+    
+.featured-in {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.featured-text {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.logos img {
+    height: 70px;
+    filter: grayscale(30%);
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+}
+
+.logos img:hover {
+    opacity: 2;
+}
+
+  
 
 .centre{
     display: flex; 
@@ -54,13 +151,13 @@ h2 {
 }
 
 .navbar {
-    width: 85%;
-    height: 15%;
-    margin: auto;
+    width: 100%;
+    height: 10%;
+    margin: 40px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    background-color: #dbeffd;
 }
 
 .nav-links{
@@ -82,7 +179,7 @@ h2 {
 
 }
 
-button {
+.button {
     color: fbfcfd;
     padding: 10px 24px;
     background: transparent;
@@ -140,6 +237,28 @@ button {
     bottom: 30px;   
 }
 
+
+.welcom{
+    display: flex;
+    margin: 10px 0 30px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+
+.right{
+    margin: 50px;
+}
+
+.bienv {
+    color: #013666;;
+    font-weight: 900;
+    font-size: 48px;
+}
+
 button {
     align-items: center;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
@@ -149,7 +268,6 @@ button {
     box-sizing: border-box;
     color: #FFFFFF;
     display: flex;
-    font-family: Phantomsans, sans-serif;
     font-size: 18px;
     justify-content: center;
     line-height: 1em;
@@ -171,7 +289,7 @@ button {
    }
    
    button span {
-    background-color: rgb(5, 6, 45);
+    background-color: #05062d;
     padding: 16px 24px;
     border-radius: 6px;
     width: 100%;
@@ -253,4 +371,132 @@ button {
 .bulles img:nth-child(7){
     animation-delay: 2s;
     width: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-container {
+    width: 400px;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    justify-content: center;
+    margin-left: 500px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.form-container button:active {
+    scale: 0.95;
+}
+
+.form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #717171;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+    opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+    outline: none;
+    border-color: #e81cff;
+}
+
+.form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #e81cff;
+}
+
+.form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 40%;
+    background: #313131;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.end{
+    background-color: #000729;
+    width: 100%; 
 }

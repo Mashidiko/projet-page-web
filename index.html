@@ -11,6 +11,7 @@
 
          <!---liens pour les polices écriture utilisées-->
          <link href="https://fonts.cdnfonts.com/css/gimbal-extended" rel="stylesheet">
+         <link rel="icon" type="image/png" href="logicone.ico">
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -28,21 +29,39 @@
                 
                 <div class="nav-container">
                     <ul class="nav-links">
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">A propos</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index2.html">A propos</a></li>
+                        <li><a href="services.html">Services</a></li>
                     </ul>    
                 </div>
-                <button type="button">calculateur</button>
+                <a href="index1.html" class="button_click" target="_blank">
+                    <button class="cssbuttons-io-button">
+                        Calculateur de Prix
+                        <div class="icon">
+                        <svg
+                            height="24"
+                            width="24"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path
+                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                            fill="currentColor"
+                            ></path>
+                        </svg>
+                        </div>
+                    </button>
+                </a>
             </div>
             <div class="centre">
                 <div class="content">
                     <small>THE BEST AND</small>
                     <h2>Professional</h2>
                     <h1>CLEANING</h1>
-                    <button>
+                    <button onclick="window.open('https://go.setmore.com/calendar', '_blank');">
                         <span class="text">Reservation</span>
-                    </button>
+                    </button>                                       
                 </div> 
                 <div class="photo-img">
                     <img src="man-cleaning-his-home__2_-removebg-preview.png" alt="">
@@ -75,5 +94,76 @@
         </div>
 
         </div>
+
+        <section class="featured-in">
+            <p class="featured-text">Nos Partenaires</p>
+            <div class="logos">
+                <img src="dghouse.png" alt="dghouse">
+                <img src="ecoleit-removebg-preview.png" alt="ecoleit">
+                <img src="logo_IT-CANTINE-removebg-preview.png" alt="itcantine">
+                <img src="Logo_Google.png" alt="Logo_Google">
+                <img src="logo-fc-barcelone.png" alt="logo barca">
+            </div>
+        </section>
+
+        <section>
+            <div class="welcom">
+                <div class="left">
+                    <h1 class="bienv">Bienvenue chez Nous</h1>
+                    <p class="secondary" style="padding-bottom: 20px;">
+                        Nous croyons que la propreté est plus qu'une simple question d'apparence. 
+                        C'est une <strong>question de bien-être, de santé et de productivité.</strong> Avec des années d'expérience et 
+                        un engagement inébranlable envers la qualité, nous offrons <strong>des services 
+                        de nettoyage exceptionnels</strong> qui transforment votre espace de vie ou de travail.
+                    </p>
+
+                </div>
+                <div class="right">
+                    <div class="image">
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/KL_nsjG1TUo?si=uE75WMZIK1YTcFab"
+                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="welcom">
+                <div class="left">
+                    <h1 class="bienv">La Propreté, C'est Nous !</h1>
+                    <p class="secondary" style="padding-bottom: 20px;">
+                        Ne laissez pas la saleté et le désordre envahir votre espace. 
+                        Contactez-nous dès aujourd'hui pour <strong>un devis gratuit</strong> et découvrez
+                         comment <strong>Naomie Cleaning</strong> peut transformer votre environnement.
+                    </p>
+
+                </div>
+                <div class="right">
+                    <div class="image">
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/IX7GDl_-t4o?si=fhtzvRUuUfHhLlQW"
+                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="end">
+            <div class="form-container">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="email">Votre adresse mail</label>
+                        <input required="" name="email" id="email" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">Laissez nous un commentaire</label>
+                        <textarea required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
+                    </div>
+                    <button type="submit" class="form-submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+
+
     </body>
 </html>

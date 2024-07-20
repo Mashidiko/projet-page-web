@@ -1,0 +1,157 @@
+body{    
+    padding: 0px;
+    margin: 60px
+    
+}
+
+
+b{
+    color:rgb(6, 6, 6);
+    font-family: Anton;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.item1 .text1{
+    color: rgb(7, 7, 7);
+    font-family:"Montserrat", sans-serif;
+    font-size:25px ;
+    font-family: Anton;
+}
+
+.item2 .text2{
+    color: rgb(10, 10, 10);
+    font-family: Anton;
+    font-size: 25px;
+    font-family: "montserrat", sans-serif;
+   
+}
+.item3 .text3{
+    color: rgb(4, 4, 5);
+    font-family: Anton;
+    font-size: 25px;
+    font-family: "montserrat", sans-serif;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+}
+.item1 {
+    display: flex;
+    flex-direction: column;
+}
+.item2 {
+    display: flex;
+    flex-direction: column;
+}
+.item3 {
+    display: flex;
+    flex-direction: row;
+}
+html{
+    background-image: url('baaa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+
+.contactButton {
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45em;
+    padding-left: 1em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+  }
+  .iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  .contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  .contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+
+
+  .produitButton {
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45em;
+    padding-left: 1em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+  }
+  .iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  .produitButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  .produitButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+  
+  
+  

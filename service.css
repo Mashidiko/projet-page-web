@@ -1,0 +1,344 @@
+h1 {
+  color: rgb(2, 17, 17);
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  background-color: #dfeffd;
+  padding: 10px;
+  margin: 20px 0;
+  font-family: "Anton", sans-serif;
+}
+h3{
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  color: #01366a;
+  margin: 20px 0;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+header button {
+ background: none;
+  border: none;
+  color: rgb(21, 20, 20);
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+button.devis {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: var(blue);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+button.devis:hover {
+ transition: 1s;
+ background-color: aquamarine;
+}
+
+
+body {   
+  margin: 50px;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #01366a;
+  
+}
+
+.s-un img {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  margin: 20px 0;
+
+}
+.s-un img:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+.s-un img:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.s-deux img {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  margin: 20px 0;
+}
+.s-deux img:hover {
+  border: 1px solid black;
+transform: scale(1.05);
+}
+.s-deux img:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.s-trois img {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  margin: 20px 0;
+}
+.s-trois img:hover {
+  border: 1px solid black;
+transform: scale(1.05);
+}
+.s-trois img:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.s-quatre img {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  margin: 20px 0;
+}
+.s-quatre img:hover {
+  border: 1px solid black;
+transform: scale(1.05);
+}
+.s-quatre img:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.s-cinq img {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 530px;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  margin: 20px 0;
+}
+.s-cinq img:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+.s-cinq img:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.fr {
+  background-color: #01366a;
+  cursor: pointer; 
+  font-family: "Anton", sans-serif;
+  color: white;
+  border-radius: 150%;
+
+}
+.nl {
+background-color: #01366a;
+cursor: pointer;
+font-family: "Anton", sans-serif;
+color: white;
+border-radius: 150%;
+}
+.en{
+background-color: #01366a;
+cursor: pointer;
+font-family: "Anton", sans-serif;
+color: white;
+border-radius: 150%;
+}
+header{
+  margin-right: 0;
+}
+.s-un {
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+  margin: auto;
+}
+.s-deux {
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+  margin: auto;
+}
+
+.s-trois {
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+  margin: auto;
+}
+
+.s-quatre {
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+  margin: auto;
+}
+.s-cinq {
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+  margin: auto;
+}
+footer {
+  background-color: #dfeffd;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+}
+
+footer .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .card a {
+  color: white;
+  margin: 0 10px;
+}
+
+footer .icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.devis{
+  width: 200px;
+  height: 50px;
+  background-color: #009dec;
+  text-align: center;
+  border-radius: 15px;
+}
+
+p {
+  padding: 20px;
+  line-height: 1.6;
+}
+.s-un, .s-deux, .s-trois, .s-quatre, .s-cinq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 600px) {
+  .s-un, .s-deux, .s-trois, .s-quatre, .s-cinq {
+    flex-direction: row;
+  }
+
+  .s-un img, .s-deux img, .s-trois img, .s-quatre img, .s-cinq img {
+    margin-right: 20px;
+  }
+
+  p {
+    padding: 20px 40px;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  p {
+    padding: 20px 60px;
+  }
+}
+
+.logo {
+  color: black;
+  font-family:"Anton", sans-serif;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation de Services</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        function calculateTotal() {
+            var service = document.getElementById("service").value;
+            var hours = document.getElementById("hours").value;
+            var prices = {
+                "Nettoyage Espace Professionel": 20,
+                "Nettoyage Industriel": 15,
+                "Nettoyage Automobile": 25,
+                "Nettoyage Evénementiel": 25,
+                "Nettoyage Espace de Santé": 25
+            };
+            var total = hours * prices[service];
+            document.getElementById("total").innerText = "Total: $" + total.toFixed(2);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculateur de Prix</h1>
+        <form onsubmit="event.preventDefault(); calculateTotal();">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="service">Sélectionnez le Service :</label>
+            <select id="service" name="service" required>
+                <option value="Nettoyage Espace Professionel">Nettoyage Espace Professionel</option>
+                <option value="Nettoyage Industriel">Nettoyage Industriel</option>
+                <option value="Nettoyage Automobile">Nettoyage Automobile</option>
+                <option value="Nettoyage Evénementiel">Nettoyage Evénementiel</option>
+                <option value="Nettoyage Espace de Santé">Nettoyage Espace de Santé</option>
+            </select><br><br>
+
+            <label for="hours">Nombre d'heures :</label>
+            <input type="number" id="hours" name="hours" min="1" required><br><br>
+
+            <input type="submit" value="Calculer le Total">
+        </form>
+
+        <div id="total"></div>
+    </div>
+</body>
+</html>
